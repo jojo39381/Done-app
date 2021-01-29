@@ -1,0 +1,42 @@
+PODS:
+  - DynamicBlurView (4.1.0)
+  - Floaty (4.2.0)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+  - Realm (5.4.4):
+    - Realm/Headers (= 5.4.4)
+  - Realm/Headers (5.4.4)
+  - RealmSwift (5.4.4):
+    - Realm (= 5.4.4)
+  - SwiftyPickerPopover (6.6.6)
+  - WaveAnimationView (1.0.2)
+
+DEPENDENCIES:
+  - Floaty (~> 4.2.0)
+  - PopupDialog (~> 1.1)
+  - RealmSwift
+  - SwiftyPickerPopover
+  - WaveAnimationView
+
+SPEC REPOS:
+  trunk:
+    - DynamicBlurView
+    - Floaty
+    - PopupDialog
+    - Realm
+    - RealmSwift
+    - SwiftyPickerPopover
+    - WaveAnimationView
+
+SPEC CHECKSUMS:
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  Floaty: e2bd5a0f6f7f70899e26ff2da31081c8bee8d1b0
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+  Realm: b845bf406e03b9c52a53e0de2394480288aa532a
+  RealmSwift: b524ff07e4e92a34f4aecbe6ed1a613979a08bb9
+  SwiftyPickerPopover: a402960a6687c911ffcb4e9fb282a1bc61186ab4
+  WaveAnimationView: 1ffdf3184884eb3270f4b19cc2e69893fec16b9d
+
+PODFILE CHECKSUM: 3ba234e67818cb33f79f92225727c04bca11879d
+
+COCOAPODS: 1.9.3

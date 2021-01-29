@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2511975028BD146795E867FB /* Pods_Done___Stop_Procrastination.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCE5C86767038B19639A623 /* Pods_Done___Stop_Procrastination.framework */; };
+		5D27D5D0252016E5007E73A6 /* AddTaskViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D5CF252016E5007E73A6 /* AddTaskViewViewController.swift */; };
+		5D439205251C3E3600B87220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D439204251C3E3600B87220 /* AppDelegate.swift */; };
+		5D439207251C3E3600B87220 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D439206251C3E3600B87220 /* SceneDelegate.swift */; };
+		5D439209251C3E3600B87220 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D439208251C3E3600B87220 /* HomeViewController.swift */; };
+		5D43920E251C3E3900B87220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D43920D251C3E3900B87220 /* Assets.xcassets */; };
+		5D439211251C3E3900B87220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D43920F251C3E3900B87220 /* LaunchScreen.storyboard */; };
+		5D43921C251C3E3900B87220 /* Done___Stop_ProcrastinationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43921B251C3E3900B87220 /* Done___Stop_ProcrastinationTests.swift */; };
+		5D439227251C3E3900B87220 /* Done___Stop_ProcrastinationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D439226251C3E3900B87220 /* Done___Stop_ProcrastinationUITests.swift */; };
+		5D439241251C40AE00B87220 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D439240251C40AE00B87220 /* CategoryView.swift */; };
+		5D439246251C41AE00B87220 /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D439245251C41AE00B87220 /* ToDoCell.swift */; };
+		5D439250251C46BD00B87220 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43924F251C46BD00B87220 /* CategoryCell.swift */; };
+		5D439255251C47DE00B87220 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D439254251C47DE00B87220 /* Extensions.swift */; };
+		5D43925A251D625600B87220 /* SectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D439259251D625600B87220 /* SectionTitleView.swift */; };
+		5D439273251ECBCE00B87220 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D439272251ECBCE00B87220 /* ToDoView.swift */; };
+		5D59EC93253D933F00BD47C3 /* IntroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D59EC92253D933F00BD47C3 /* IntroCell.swift */; };
+		5D7DA54525215DD2007FABE8 /* CountDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DA54425215DD2007FABE8 /* CountDownViewController.swift */; };
+		5D7DA5562521700F007FABE8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DA5552521700F007FABE8 /* Item.swift */; };
+		5D7DA55B25217019007FABE8 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DA55A25217019007FABE8 /* Category.swift */; };
+		5D7DA56025217847007FABE8 /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DA55F25217847007FABE8 /* AddCategoryViewController.swift */; };
+		5D7DA5652521CD1F007FABE8 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DA5642521CD1F007FABE8 /* CategoryViewController.swift */; };
+		5DD17457253A786400299C9E /* ActionSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD17456253A786400299C9E /* ActionSlide.swift */; };
+		5DD1745C253A8EF900299C9E /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1745B253A8EF900299C9E /* Actions.swift */; };
+		63DD2B516A2BBB052081D0DE /* Pods_Done___Stop_Procrastination_Done___Stop_ProcrastinationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F094D7B9F488B87CD3679E /* Pods_Done___Stop_Procrastination_Done___Stop_ProcrastinationUITests.framework */; };
+		FEDE21AEAEBCF054E9D00262 /* Pods_Done___Stop_ProcrastinationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE9D20A22C8F66F7F22C599 /* Pods_Done___Stop_ProcrastinationTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D439218251C3E3900B87220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4391F9251C3E3600B87220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D439200251C3E3600B87220;
+			remoteInfo = "Done - Stop Procrastination";
+		};
+		5D439223251C3E3900B87220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4391F9251C3E3600B87220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D439200251C3E3600B87220;
+			remoteInfo = "Done - Stop Procrastination";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14F9904711B9776A05313889 /* Pods-Done - Stop ProcrastinationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Done - Stop ProcrastinationTests.debug.xcconfig"; path = "Target Support Files/Pods-Done - Stop ProcrastinationTests/Pods-Done - Stop ProcrastinationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FFC7BB7644BDEBC02ABCEBD /* Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests.debug.xcconfig"; path = "Target Support Files/Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests/Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		229D14D8D86D15B23F5E07B1 /* Pods-Done - Stop ProcrastinationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Done - Stop ProcrastinationTests.release.xcconfig"; path = "Target Support Files/Pods-Done - Stop ProcrastinationTests/Pods-Done - Stop ProcrastinationTests.release.xcconfig"; sourceTree = "<group>"; };
+		26E4A753ED8DEA10C67BBC20 /* Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests.release.xcconfig"; path = "Target Support Files/Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests/Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D27D5CF252016E5007E73A6 /* AddTaskViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewViewController.swift; sourceTree = "<group>"; };
+		5D439201251C3E3600B87220 /* Done - Stop Procrastination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Done - Stop Procrastination.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D439204251C3E3600B87220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D439206251C3E3600B87220 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D439208251C3E3600B87220 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5D43920D251C3E3900B87220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D439210251C3E3900B87220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D439212251C3E3900B87220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D439217251C3E3900B87220 /* Done - Stop ProcrastinationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Done - Stop ProcrastinationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D43921B251C3E3900B87220 /* Done___Stop_ProcrastinationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Done___Stop_ProcrastinationTests.swift"; sourceTree = "<group>"; };
+		5D43921D251C3E3900B87220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D439222251C3E3900B87220 /* Done - Stop ProcrastinationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Done - Stop ProcrastinationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D439226251C3E3900B87220 /* Done___Stop_ProcrastinationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Done___Stop_ProcrastinationUITests.swift"; sourceTree = "<group>"; };
+		5D439228251C3E3900B87220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D439240251C40AE00B87220 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		5D439245251C41AE00B87220 /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
+		5D43924F251C46BD00B87220 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		5D439254251C47DE00B87220 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5D439259251D625600B87220 /* SectionTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleView.swift; sourceTree = "<group>"; };
+		5D439272251ECBCE00B87220 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		5D59EC92253D933F00BD47C3 /* IntroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroCell.swift; sourceTree = "<group>"; };
+		5D7DA54425215DD2007FABE8 /* CountDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownViewController.swift; sourceTree = "<group>"; };
+		5D7DA5552521700F007FABE8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5D7DA55A25217019007FABE8 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		5D7DA55F25217847007FABE8 /* AddCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+		5D7DA5642521CD1F007FABE8 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		5DD17456253A786400299C9E /* ActionSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSlide.swift; sourceTree = "<group>"; };
+		5DD1745B253A8EF900299C9E /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		7D47D5E1E1A015DE16868249 /* Pods-Done - Stop Procrastination.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Done - Stop Procrastination.release.xcconfig"; path = "Target Support Files/Pods-Done - Stop Procrastination/Pods-Done - Stop Procrastination.release.xcconfig"; sourceTree = "<group>"; };
+		A090933BBB18A6CB0D2B7A76 /* Pods-Done - Stop Procrastination.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Done - Stop Procrastination.debug.xcconfig"; path = "Target Support Files/Pods-Done - Stop Procrastination/Pods-Done - Stop Procrastination.debug.xcconfig"; sourceTree = "<group>"; };
+		DFE9D20A22C8F66F7F22C599 /* Pods_Done___Stop_ProcrastinationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Done___Stop_ProcrastinationTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F094D7B9F488B87CD3679E /* Pods_Done___Stop_Procrastination_Done___Stop_ProcrastinationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Done___Stop_Procrastination_Done___Stop_ProcrastinationUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCE5C86767038B19639A623 /* Pods_Done___Stop_Procrastination.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Done___Stop_Procrastination.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D4391FE251C3E3600B87220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2511975028BD146795E867FB /* Pods_Done___Stop_Procrastination.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D439214251C3E3900B87220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDE21AEAEBCF054E9D00262 /* Pods_Done___Stop_ProcrastinationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D43921F251C3E3900B87220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DD2B516A2BBB052081D0DE /* Pods_Done___Stop_Procrastination_Done___Stop_ProcrastinationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47972DBF6B72A3BADDD647FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCCE5C86767038B19639A623 /* Pods_Done___Stop_Procrastination.framework */,
+				F8F094D7B9F488B87CD3679E /* Pods_Done___Stop_Procrastination_Done___Stop_ProcrastinationUITests.framework */,
+				DFE9D20A22C8F66F7F22C599 /* Pods_Done___Stop_ProcrastinationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D2082942549F73C006D6349 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D439208251C3E3600B87220 /* HomeViewController.swift */,
+				5D7DA54425215DD2007FABE8 /* CountDownViewController.swift */,
+				5D7DA55F25217847007FABE8 /* AddCategoryViewController.swift */,
+				5D27D5CF252016E5007E73A6 /* AddTaskViewViewController.swift */,
+				5D7DA5642521CD1F007FABE8 /* CategoryViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5D4391F8251C3E3600B87220 = {
+			isa = PBXGroup;
+			children = (
+				5D439203251C3E3600B87220 /* Done - Stop Procrastination */,
+				5D43921A251C3E3900B87220 /* Done - Stop ProcrastinationTests */,
+				5D439225251C3E3900B87220 /* Done - Stop ProcrastinationUITests */,
+				5D439202251C3E3600B87220 /* Products */,
+				67B6B8CB96BCF21444004996 /* Pods */,
+				47972DBF6B72A3BADDD647FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D439202251C3E3600B87220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D439201251C3E3600B87220 /* Done - Stop Procrastination.app */,
+				5D439217251C3E3900B87220 /* Done - Stop ProcrastinationTests.xctest */,
+				5D439222251C3E3900B87220 /* Done - Stop ProcrastinationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D439203251C3E3600B87220 /* Done - Stop Procrastination */ = {
+			isa = PBXGroup;
+			children = (
+				5D439204251C3E3600B87220 /* AppDelegate.swift */,
+				5D439206251C3E3600B87220 /* SceneDelegate.swift */,
+				5D2082942549F73C006D6349 /* ViewControllers */,
+				5DD17456253A786400299C9E /* ActionSlide.swift */,
+				5DD1745B253A8EF900299C9E /* Actions.swift */,
+				5D7DA5552521700F007FABE8 /* Item.swift */,
+				5D7DA55A25217019007FABE8 /* Category.swift */,
+				5D43924F251C46BD00B87220 /* CategoryCell.swift */,
+				5D439259251D625600B87220 /* SectionTitleView.swift */,
+				5D439245251C41AE00B87220 /* ToDoCell.swift */,
+				5D59EC92253D933F00BD47C3 /* IntroCell.swift */,
+				5D439272251ECBCE00B87220 /* ToDoView.swift */,
+				5D439240251C40AE00B87220 /* CategoryView.swift */,
+				5D439254251C47DE00B87220 /* Extensions.swift */,
+				5D43920D251C3E3900B87220 /* Assets.xcassets */,
+				5D43920F251C3E3900B87220 /* LaunchScreen.storyboard */,
+				5D439212251C3E3900B87220 /* Info.plist */,
+			);
+			path = "Done - Stop Procrastination";
+			sourceTree = "<group>";
+		};
+		5D43921A251C3E3900B87220 /* Done - Stop ProcrastinationTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D43921B251C3E3900B87220 /* Done___Stop_ProcrastinationTests.swift */,
+				5D43921D251C3E3900B87220 /* Info.plist */,
+			);
+			path = "Done - Stop ProcrastinationTests";
+			sourceTree = "<group>";
+		};
+		5D439225251C3E3900B87220 /* Done - Stop ProcrastinationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D439226251C3E3900B87220 /* Done___Stop_ProcrastinationUITests.swift */,
+				5D439228251C3E3900B87220 /* Info.plist */,
+			);
+			path = "Done - Stop ProcrastinationUITests";
+			sourceTree = "<group>";
+		};
+		67B6B8CB96BCF21444004996 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A090933BBB18A6CB0D2B7A76 /* Pods-Done - Stop Procrastination.debug.xcconfig */,
+				7D47D5E1E1A015DE16868249 /* Pods-Done - Stop Procrastination.release.xcconfig */,
+				1FFC7BB7644BDEBC02ABCEBD /* Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests.debug.xcconfig */,
+				26E4A753ED8DEA10C67BBC20 /* Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests.release.xcconfig */,
+				14F9904711B9776A05313889 /* Pods-Done - Stop ProcrastinationTests.debug.xcconfig */,
+				229D14D8D86D15B23F5E07B1 /* Pods-Done - Stop ProcrastinationTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D439200251C3E3600B87220 /* Done - Stop Procrastination */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D43922B251C3E3900B87220 /* Build configuration list for PBXNativeTarget "Done - Stop Procrastination" */;
+			buildPhases = (
+				1ED76FAC8C8912656A751BE1 /* [CP] Check Pods Manifest.lock */,
+				5D4391FD251C3E3600B87220 /* Sources */,
+				5D4391FE251C3E3600B87220 /* Frameworks */,
+				5D4391FF251C3E3600B87220 /* Resources */,
+				28129E1677B343EA61E7D96C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Done - Stop Procrastination";
+			productName = "Done - Stop Procrastination";
+			productReference = 5D439201251C3E3600B87220 /* Done - Stop Procrastination.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D439216251C3E3900B87220 /* Done - Stop ProcrastinationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D43922E251C3E3900B87220 /* Build configuration list for PBXNativeTarget "Done - Stop ProcrastinationTests" */;
+			buildPhases = (
+				618E6348D61FEA20573F6E5A /* [CP] Check Pods Manifest.lock */,
+				5D439213251C3E3900B87220 /* Sources */,
+				5D439214251C3E3900B87220 /* Frameworks */,
+				5D439215251C3E3900B87220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D439219251C3E3900B87220 /* PBXTargetDependency */,
+			);
+			name = "Done - Stop ProcrastinationTests";
+			productName = "Done - Stop ProcrastinationTests";
+			productReference = 5D439217251C3E3900B87220 /* Done - Stop ProcrastinationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D439221251C3E3900B87220 /* Done - Stop ProcrastinationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D439231251C3E3900B87220 /* Build configuration list for PBXNativeTarget "Done - Stop ProcrastinationUITests" */;
+			buildPhases = (
+				CBB1842C7F124E31409861D2 /* [CP] Check Pods Manifest.lock */,
+				5D43921E251C3E3900B87220 /* Sources */,
+				5D43921F251C3E3900B87220 /* Frameworks */,
+				5D439220251C3E3900B87220 /* Resources */,
+				A732D57590CA28567EE81738 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D439224251C3E3900B87220 /* PBXTargetDependency */,
+			);
+			name = "Done - Stop ProcrastinationUITests";
+			productName = "Done - Stop ProcrastinationUITests";
+			productReference = 5D439222251C3E3900B87220 /* Done - Stop ProcrastinationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D4391F9251C3E3600B87220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5D439200251C3E3600B87220 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					5D439216251C3E3900B87220 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5D439200251C3E3600B87220;
+					};
+					5D439221251C3E3900B87220 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5D439200251C3E3600B87220;
+					};
+				};
+			};
+			buildConfigurationList = 5D4391FC251C3E3600B87220 /* Build configuration list for PBXProject "Done - Stop Procrastination" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D4391F8251C3E3600B87220;
+			productRefGroup = 5D439202251C3E3600B87220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D439200251C3E3600B87220 /* Done - Stop Procrastination */,
+				5D439216251C3E3900B87220 /* Done - Stop ProcrastinationTests */,
+				5D439221251C3E3900B87220 /* Done - Stop ProcrastinationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D4391FF251C3E3600B87220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D439211251C3E3900B87220 /* LaunchScreen.storyboard in Resources */,
+				5D43920E251C3E3900B87220 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D439215251C3E3900B87220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D439220251C3E3900B87220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED76FAC8C8912656A751BE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Done - Stop Procrastination-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28129E1677B343EA61E7D96C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Done - Stop Procrastination/Pods-Done - Stop Procrastination-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Done - Stop Procrastination/Pods-Done - Stop Procrastination-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Done - Stop Procrastination/Pods-Done - Stop Procrastination-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		618E6348D61FEA20573F6E5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Done - Stop ProcrastinationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A732D57590CA28567EE81738 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests/Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests/Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests/Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB1842C7F124E31409861D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D4391FD251C3E3600B87220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D439209251C3E3600B87220 /* HomeViewController.swift in Sources */,
+				5D439205251C3E3600B87220 /* AppDelegate.swift in Sources */,
+				5D439241251C40AE00B87220 /* CategoryView.swift in Sources */,
+				5D439255251C47DE00B87220 /* Extensions.swift in Sources */,
+				5D7DA5562521700F007FABE8 /* Item.swift in Sources */,
+				5D439273251ECBCE00B87220 /* ToDoView.swift in Sources */,
+				5D27D5D0252016E5007E73A6 /* AddTaskViewViewController.swift in Sources */,
+				5D7DA54525215DD2007FABE8 /* CountDownViewController.swift in Sources */,
+				5D439250251C46BD00B87220 /* CategoryCell.swift in Sources */,
+				5DD1745C253A8EF900299C9E /* Actions.swift in Sources */,
+				5D7DA55B25217019007FABE8 /* Category.swift in Sources */,
+				5D7DA5652521CD1F007FABE8 /* CategoryViewController.swift in Sources */,
+				5D59EC93253D933F00BD47C3 /* IntroCell.swift in Sources */,
+				5DD17457253A786400299C9E /* ActionSlide.swift in Sources */,
+				5D43925A251D625600B87220 /* SectionTitleView.swift in Sources */,
+				5D439207251C3E3600B87220 /* SceneDelegate.swift in Sources */,
+				5D7DA56025217847007FABE8 /* AddCategoryViewController.swift in Sources */,
+				5D439246251C41AE00B87220 /* ToDoCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D439213251C3E3900B87220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D43921C251C3E3900B87220 /* Done___Stop_ProcrastinationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D43921E251C3E3900B87220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D439227251C3E3900B87220 /* Done___Stop_ProcrastinationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D439219251C3E3900B87220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D439200251C3E3600B87220 /* Done - Stop Procrastination */;
+			targetProxy = 5D439218251C3E3900B87220 /* PBXContainerItemProxy */;
+		};
+		5D439224251C3E3900B87220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D439200251C3E3600B87220 /* Done - Stop Procrastination */;
+			targetProxy = 5D439223251C3E3900B87220 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D43920F251C3E3900B87220 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D439210251C3E3900B87220 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D439229251C3E3900B87220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D43922A251C3E3900B87220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D43922C251C3E3900B87220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A090933BBB18A6CB0D2B7A76 /* Pods-Done - Stop Procrastination.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TD6K89778;
+				INFOPLIST_FILE = "Done - Stop Procrastination/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Briefy.done;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5D43922D251C3E3900B87220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D47D5E1E1A015DE16868249 /* Pods-Done - Stop Procrastination.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TD6K89778;
+				INFOPLIST_FILE = "Done - Stop Procrastination/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Briefy.done;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5D43922F251C3E3900B87220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14F9904711B9776A05313889 /* Pods-Done - Stop ProcrastinationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TD6K89778;
+				INFOPLIST_FILE = "Done - Stop ProcrastinationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Briefy.done--com.Briefy.done.Done---Stop-ProcrastinationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Done - Stop Procrastination.app/Done - Stop Procrastination";
+			};
+			name = Debug;
+		};
+		5D439230251C3E3900B87220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229D14D8D86D15B23F5E07B1 /* Pods-Done - Stop ProcrastinationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TD6K89778;
+				INFOPLIST_FILE = "Done - Stop ProcrastinationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Briefy.done--com.Briefy.done.Done---Stop-ProcrastinationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Done - Stop Procrastination.app/Done - Stop Procrastination";
+			};
+			name = Release;
+		};
+		5D439232251C3E3900B87220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFC7BB7644BDEBC02ABCEBD /* Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TD6K89778;
+				INFOPLIST_FILE = "Done - Stop ProcrastinationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Briefy.done--com.Briefy.done.Done---Stop-ProcrastinationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Done - Stop Procrastination";
+			};
+			name = Debug;
+		};
+		5D439233251C3E3900B87220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E4A753ED8DEA10C67BBC20 /* Pods-Done - Stop Procrastination-Done - Stop ProcrastinationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TD6K89778;
+				INFOPLIST_FILE = "Done - Stop ProcrastinationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Briefy.done--com.Briefy.done.Done---Stop-ProcrastinationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Done - Stop Procrastination";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D4391FC251C3E3600B87220 /* Build configuration list for PBXProject "Done - Stop Procrastination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D439229251C3E3900B87220 /* Debug */,
+				5D43922A251C3E3900B87220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D43922B251C3E3900B87220 /* Build configuration list for PBXNativeTarget "Done - Stop Procrastination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D43922C251C3E3900B87220 /* Debug */,
+				5D43922D251C3E3900B87220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D43922E251C3E3900B87220 /* Build configuration list for PBXNativeTarget "Done - Stop ProcrastinationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D43922F251C3E3900B87220 /* Debug */,
+				5D439230251C3E3900B87220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D439231251C3E3900B87220 /* Build configuration list for PBXNativeTarget "Done - Stop ProcrastinationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D439232251C3E3900B87220 /* Debug */,
+				5D439233251C3E3900B87220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D4391F9251C3E3600B87220 /* Project object */;
+}

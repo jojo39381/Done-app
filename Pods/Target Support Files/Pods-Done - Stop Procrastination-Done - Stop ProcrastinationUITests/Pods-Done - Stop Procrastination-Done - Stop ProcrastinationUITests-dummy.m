@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Done___Stop_Procrastination_Done___Stop_ProcrastinationUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Done___Stop_Procrastination_Done___Stop_ProcrastinationUITests
+@end

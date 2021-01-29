@@ -1,0 +1,6 @@
+framework module Pods_Done___Stop_Procrastination {
+  umbrella header "Pods-Done - Stop Procrastination-umbrella.h"
+
+  export *
+  module * { export * }
+}
